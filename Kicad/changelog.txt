@@ -1,0 +1,12 @@
+Oric Remix Issue A Change Log
+=============================
+
+v1.1
+
+Fix Volume Pot
+Add VC1 PAL Oscillator Adjustment
+C9 220nF AD724 Decoupler
+Moved C3 now 100uF Tant
+C36 now 100uF Tant
+C21 Reset to 10uF
+SW3, LK6 System Reset Switches

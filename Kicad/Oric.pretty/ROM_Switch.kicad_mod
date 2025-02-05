@@ -1,0 +1,224 @@
+(footprint "ROM_Switch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
+	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
+	(property "Reference" "REF**"
+		(at 3.81 -2.33 0)
+		(layer "F.SilkS")
+		(uuid "c6a3d6c0-e32b-41bb-8297-fb63ba9e4ae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ROM_Switch"
+		(at 3.81 4.87 0)
+		(layer "F.Fab")
+		(uuid "1581725e-2691-4651-85c5-15314b4dc7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f2e24bb-55d5-400a-b85a-5070e74d50e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8cd9f31-e5a2-4e7c-af9b-62f7a632ab32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd20561d-b73c-4624-9d61-bb8b6956c0e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.33 -1.39)
+		(end -1.33 3.93)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c1e1bc6-5a78-45dd-b605-89d95859a8ff")
+	)
+	(fp_line
+		(start -1.33 3.93)
+		(end 8.95 3.93)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1641fa6a-1f3f-48ed-b28c-8f792bcb9c6c")
+	)
+	(fp_line
+		(start 8.95 -1.39)
+		(end -1.33 -1.39)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e04be37-0bcd-4da6-a50e-a8a38ad75950")
+	)
+	(fp_line
+		(start 8.95 3.93)
+		(end 8.95 -1.39)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "939cc6e1-9be7-45d0-bcdf-11930838bc8f")
+	)
+	(fp_line
+		(start -1.55 -1.6)
+		(end -1.55 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c0e9d33-fae7-49ce-886a-4c269b304b8b")
+	)
+	(fp_line
+		(start -1.55 4.15)
+		(end 9.15 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0457506-cef8-4281-879e-4ec2be960e8d")
+	)
+	(fp_line
+		(start 9.15 -1.6)
+		(end -1.55 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fa83890-3642-4c95-b988-da2ccb93098c")
+	)
+	(fp_line
+		(start 9.15 4.15)
+		(end 9.15 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b93b9f5a-7efd-4bb1-b607-2509c9e70b20")
+	)
+	(fp_line
+		(start -1.27 -1.33)
+		(end -1.27 3.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6968983-1bea-4984-8199-d6c754493cd4")
+	)
+	(fp_line
+		(start 8.89 3.87)
+		(end 8.89 -1.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "866237e9-2e20-4120-8fc1-d440324af35c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 1.27 0)
+		(layer "F.Fab")
+		(uuid "8b993a7b-93b3-4f1d-89cb-2c8b492e4063")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18ed88ca-1fcc-4f31-b159-16b6a4730216")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d70269b7-2c9d-4c67-a88c-b1ca655d7cef")
+	)
+	(pad "3" thru_hole oval
+		(at 7.62 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76da72e4-58b6-4856-9287-51963f359983")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61f35ca4-0139-4386-87c5-6d451b32b26d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W7.62mm_Socket.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
