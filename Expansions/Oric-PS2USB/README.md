@@ -1,5 +1,7 @@
 # Oric-PS2USB
 
+![Image of PS2 build version 1 board in green](https://github.com/Board-Folk/Oric-Remix/blob/main/images/Oric-PS2USBv1_PS2_Small.png)
+
 This is currently a prototype board to prove the schematic and code for doing something a bit better. The board contains footprints for both the Arduino Nano and Mini-DIN socket for PS/2 and the Seediuno Xiao for USB. Only populate one or the other.
 
 It won't fit in an original case - it's not intended for that. It's suitable to get going with the Oric if you've no keyboard available - board only if you like. Better than no keyboard at all. The main board will need a 14 pin header fitting with pins long enough to reach the socket, approx 14mm above the component side of the board.
