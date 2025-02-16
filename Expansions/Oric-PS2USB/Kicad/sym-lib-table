@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Oric-PS2USB")(type "KiCad")(uri "${KIPRJMOD}/Oric-PS2USB.kicad_sym")(options "")(descr ""))
+)
