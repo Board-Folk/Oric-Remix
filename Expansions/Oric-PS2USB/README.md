@@ -8,7 +8,7 @@ It won't fit in an original case - it's not intended for that. It's suitable to 
 
 So far only the code for the Nano PS/2 assembly has been completed.
 
-In the future, alongside more useful maybe a much reduced version in size we'll also do an MX kayboard similar to that of the Atmos - though this has already been done by others if you Google.
+In the future, alongside more useful maybe a much reduced version in size we'll also do an MX keyboard similar to that of the Atmos - though this has already been done by others if you Google.
 
 ## BOM
 
