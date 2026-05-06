@@ -192,10 +192,10 @@ Original replica PCB Layout by Rob Taylor (@peepouk) with modifications by Ian C
 
 ## Gallery
 
-Oric Remix v1.1 in Black
+Oric Remix v1.1 in Black 
 ![Image of build version 1.1 board in black](https://github.com/Board-Folk/Oric-Remix/blob/main/images/OricRemixIssAv1.1_small.png)
 
-Version v1.1 /ROMDIS Fix
+Version v1.1 /ROMDIS Fix 
 ![Image of v1.1 /ROMDIS modification](https://github.com/Board-Folk/Oric-Remix/blob/main/images/v1.1_ROMDIS_Fix_small.png)
 
 ## Legal
