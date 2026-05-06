@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "27105b48-977f-4c63-94dd-a27bbcf29c5a")
 	(paper "A4")
 	(lib_symbols
@@ -9,7 +9,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -86,6 +86,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -298,7 +299,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 53.34 175.26 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -322,7 +323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oric:tangerineleafpot"
+		(property "Footprint" "Oric:tangerineleafpot_growth1"
 			(at 53.34 175.26 0)
 			(effects
 				(font
@@ -362,7 +363,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 53.34 184.15 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -425,6 +426,10 @@
 	(sheet
 		(at 152.4 63.5)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -454,33 +459,33 @@
 		)
 		(pin "A[0..15]" input
 			(at 152.4 77.47 180)
+			(uuid "27ea0ea6-6503-4801-ae23-fcdae8b9a7b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "27ea0ea6-6503-4801-ae23-fcdae8b9a7b4")
 		)
 		(pin "D[0..7]" input
 			(at 152.4 85.09 180)
+			(uuid "d21aa2c7-d3ad-4990-ad47-3d0f2a077516")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d21aa2c7-d3ad-4990-ad47-3d0f2a077516")
 		)
 		(pin "R[14..15]" bidirectional
 			(at 190.5 77.47 0)
+			(uuid "e8eff2ad-9286-4830-a1f5-22e2ac0cb06e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e8eff2ad-9286-4830-a1f5-22e2ac0cb06e")
 		)
 		(instances
 			(project "Oric"
@@ -493,6 +498,10 @@
 	(sheet
 		(at 50.8 25.4)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -531,6 +540,10 @@
 	(sheet
 		(at 50.8 101.6)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -560,43 +573,43 @@
 		)
 		(pin "D[0..7]" input
 			(at 88.9 123.19 0)
+			(uuid "4428b9a7-c4a7-47aa-ad0f-6c1776c6c100")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4428b9a7-c4a7-47aa-ad0f-6c1776c6c100")
 		)
 		(pin "A[0..15]" input
 			(at 88.9 115.57 0)
+			(uuid "fe97428f-fe9e-4ffa-b944-4401d84b19e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe97428f-fe9e-4ffa-b944-4401d84b19e8")
 		)
 		(pin "IOA[0..7]" input
 			(at 50.8 115.57 180)
+			(uuid "d56baa20-eb30-4404-b9f3-cccb1afee9ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d56baa20-eb30-4404-b9f3-cccb1afee9ad")
 		)
 		(pin "DA[0..7]" input
 			(at 50.8 121.92 180)
+			(uuid "ea50525f-5e1a-4cb7-8e5f-c4b37c39b5f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea50525f-5e1a-4cb7-8e5f-c4b37c39b5f3")
 		)
 		(instances
 			(project "Oric"
@@ -609,6 +622,10 @@
 	(sheet
 		(at 50.8 63.5)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -638,33 +655,33 @@
 		)
 		(pin "A[0..15]" input
 			(at 88.9 77.47 0)
+			(uuid "f6af3972-908a-42ff-8e03-138b1768aeb2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f6af3972-908a-42ff-8e03-138b1768aeb2")
 		)
 		(pin "D[0..7]" input
 			(at 88.9 85.09 0)
+			(uuid "f6ff89c5-b7f0-40ef-9500-e2a244485bfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f6ff89c5-b7f0-40ef-9500-e2a244485bfd")
 		)
 		(pin "MA[0..7]" input
 			(at 88.9 81.28 0)
+			(uuid "476fad52-4ca9-4f1d-89b6-89329c9081be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "476fad52-4ca9-4f1d-89b6-89329c9081be")
 		)
 		(instances
 			(project "Oric"
@@ -677,6 +694,10 @@
 	(sheet
 		(at 50.8 139.7)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -715,6 +736,10 @@
 	(sheet
 		(at 101.6 63.5)
 		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -744,33 +769,33 @@
 		)
 		(pin "D[0..7]" input
 			(at 101.6 85.09 180)
+			(uuid "91f7bc73-3ab1-4c65-877d-bcd62078bf8a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91f7bc73-3ab1-4c65-877d-bcd62078bf8a")
 		)
 		(pin "A[0..15]" input
 			(at 101.6 77.47 180)
+			(uuid "da7f96f0-0362-4170-96b6-1544c554ef9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "da7f96f0-0362-4170-96b6-1544c554ef9d")
 		)
 		(pin "MA[0..7]" input
 			(at 101.6 81.28 180)
+			(uuid "2effba50-f646-4492-8579-87f122e2f51c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2effba50-f646-4492-8579-87f122e2f51c")
 		)
 		(instances
 			(project "Oric"
@@ -785,4 +810,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

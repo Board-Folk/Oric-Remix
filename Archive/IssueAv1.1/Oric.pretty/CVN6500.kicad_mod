@@ -1,0 +1,118 @@
+(footprint "CVN6500"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CVN6500-1")
+	(tags "Capacitor")
+	(property "Reference" "CT1"
+		(at 2.5 1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57c08580-85ad-4f0b-a8ad-1a0f01a3c881")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Trimmer"
+		(at 2.8956 -2.0828 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "abe1708f-a44e-48cb-a9d7-20f3a77ea52f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad7fcd9f-f05d-4e33-b7c2-0f01fd71585b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97a2e48d-4a50-4022-ab6d-6fcb5e2a761d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc2f6c8a-6582-415a-868c-be8a335fd5a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 2.9972 0)
+		(end 4.6972 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e33c9d15-8b29-444c-9a6e-f9f55d637c41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.43 5.37 0)
+		(layer "F.Fab")
+		(uuid "4fcd0c0d-4160-4ee4-b885-c47228d97b59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac03c0db-f164-4a88-821f-751de78f19d2")
+	)
+	(pad "2" thru_hole circle
+		(at 6 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9cad316-6596-4baa-9898-5622be8b37ed")
+	)
+	(model "C:\\Users\\Ian\\Documents\\RS\\SamacSys_Parts.3dshapes\\CVN6500.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

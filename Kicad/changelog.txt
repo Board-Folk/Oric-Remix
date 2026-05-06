@@ -10,3 +10,7 @@ Moved C3 now 100uF Tant
 C36 now 100uF Tant
 C21 Reset to 10uF
 SW3, LK6 System Reset Switches
+
+v1.2
+
+/ROMDIS fix by Simon Luce

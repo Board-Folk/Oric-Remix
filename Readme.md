@@ -2,17 +2,18 @@
 
 An updated Oric-1 / Oric Atmos board
 
-** Work-in-progress **
-
-![Image of build version 1.1 board in black](https://github.com/Board-Folk/Oric-Remix/blob/main/images/OricRemixIssAv1.1_small.png)
+![Image of build version 1.2 board in blue](https://github.com/Board-Folk/Oric-Remix/blob/main/images/OricRemixIssAv1.2_small.png)
 
 This repository contains the Bill-of-Materials (BOM), Gerbers and Kicad files for an updated Tangerine Oric motherboard found in the Oric-1 and Oric Atmos computers. The board is compatible for system ROM, in software and in form factor with the original board. Improvements include integration of service manual modifications, updated RAM and ROM layout and composite video, with the added intention to make it easier to build. It does not replace any of the core chips including the ULA which is still required.
 
-More information to follow. This has been tested as it is to the best of our ability so far, but as none of the development team currently have any external expansion bus peripherals this has to be considered not fully tested, so build and use with that in mind. We'd like some help to change that!
+There was an issue with v1.1 board causing the /ROMDIS signal not disabling the internal ROM. Simon Luce discovered this in testing and devised a fix that is now incorporated into v1.2.  Many thanks to Simon. This has now been tested with the Loci expansion which now starts correctly. A suggested method of applying this fix is further down the page.
 
 ## Revisions
 
 * Version 1.1 Initial Public Release
+* Version 1.2 fix for external expansions (/ROMDIS fix)
+
+Project now in Kicad 9
 
 ### Version 1.1 Modifications from Original
 
@@ -27,6 +28,10 @@ More information to follow. This has been tested as it is to the best of our abi
 * Additional system reset button
 * Commodore 1531 tape interface (optional - original remains on the board)
 
+### Version 1.2
+
+* /ROMDIS fix
+
 ## Modification Notes
 
 ### LM7805
@@ -35,7 +40,7 @@ The original Oric boards regulated the negative power rail using a 7905 voltage 
 
 ### ROM replacement and /ROMDIS updated
 
-For the use of EPROMs and the bank selector, /ROMDIS was updated, the logic which allows external expansions to disable the system ROM. This uses IC11 which can no longer be omitted.
+For the use of EPROMs and the bank selector, /ROMDIS was updated, the logic which allows external expansions to disable the system ROM. This uses IC11 which can no longer be omitted. This logic has been fixed in v1.2.
 
 A 27C512 EEPROM can be used in chunks of 16KB selectable with the DIP switch. To compile a ROM of this kind, simply concatenate 4 16KB ROM images together, for example in DOS, copy /b rom1.bin+rom2.bin+rom3.bin+rom4.bin bigrom.bin to give you a 64KB file and select each 16KB banks with the switches as binary.
 
@@ -68,10 +73,6 @@ To cut a long story short, tape support isn't great on the Oric, a source tape h
 We'll try get a keyboard replica done as soon as we can, modified for the use of MX or compatible keyswitches. There's at least one other replica already available on the internet.
 
 A prototype PS/2 interface has been completed and works which isn't any use with an original case, but at least makes a functional system. The board also has provision for USB, the code for which hasn't been completed yet. This prototype will be uploaded soon. Still trying to work out how this will work out for a final version and whether that can fit inside a case.
-
-## Build Notes
-
-** Coming soon **
 
 ## BOM
 
@@ -162,6 +163,17 @@ Main BOM including items for Commodore 1531 Cassette. See below. Resistors 1/4W.
 |1|TR7|TIP29|Transistor|D880 Substitute|
 |1|SK5|7 pin mini-DIN|Socket||
 
+## Version v1.1 /ROMDIS Fix
+
+Version 1.1 of the board can be reasonably easily modified to incorporate the fix. Here's a suggested method.
+
+* Cut the track to south side of IC11 pin 1 on the rear of the board
+* Cut the track between pins 4 and 5 of IC11 on the rear of the board. If these pins are soldered you may wish to remove the solder first and reapply.
+* Scrape to remove the solder mask on the thin track north of pin 5 on the rear of the board carefully not to expose the thicker 5V track above and re-tin.
+* Solder a thin bridge wire between the exposed track and pin 5 of IC11
+
+See image at the bottom of the page.
+
 ## Links
 
    [Finedon Electronics - Short 7 pin DIN socket](https://www.ebay.co.uk/itm/185588182650) <br>
@@ -169,13 +181,19 @@ Main BOM including items for Commodore 1531 Cassette. See below. Resistors 1/4W.
 
 ## Credits
 
-Original replica PCB Layout by Rob Taylor (@peepouk) with modifications by Ian Cudlip (@grandoldian). Original PCB, research, assistance and documentation from Chrissy (@chris_jh). Schematics recreated and modifications by Ian Cudlip with suggestions and testing from Chrissy.
+Original replica PCB Layout by Rob Taylor (@peepouk) with modifications by Ian Cudlip (@grandoldian). Original PCB, research, assistance and documentation from Chrissy (@chris_jh). Schematics recreated and modifications by Ian Cudlip with suggestions and testing from Chrissy. /ROMDIS fix by Simon Luce.
 
 ## Thanks
 
 * "More Fun Making It" Lee (@morefunmakingit) 
 * Marko Šolajić (@msolajic)
+* Simon Luce
 * The Board Folk Team
+
+## Gallery
+
+![Image of build version 1.1 board in black](https://github.com/Board-Folk/Oric-Remix/blob/main/images/OricRemixIssAv1.1_small.png)
+![Image of v1.1 /ROMDIS modification](https://github.com/Board-Folk/Oric-Remix/blob/main/images/v1.1_ROMDIS_Fix_small.png)
 
 ## Legal
 

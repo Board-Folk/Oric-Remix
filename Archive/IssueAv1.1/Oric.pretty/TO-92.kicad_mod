@@ -1,0 +1,210 @@
+(footprint "TO-92"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
+	(tags "TO-92L Molded Narrow transistor")
+	(property "Reference" "TR1"
+		(at 1.29 -3.56 0)
+		(layer "F.SilkS")
+		(uuid "34b72eaf-1f50-4da4-aea4-3fa48ebcd551")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "BC184"
+		(at 1.29 2.79 0)
+		(layer "F.Fab")
+		(uuid "dd12fa37-b4c1-4b30-98c5-cbd92a6336a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Oric:TO-92"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4361033e-624a-47d3-aa45-5a0e4211ed77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a476ccb-ceb9-4f58-b83b-591ebce61879")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NPN transistor, collector/base/emitter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587b18d3-bea7-4897-9547-4b939f7f860b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.65 1.7)
+		(end 3.2 1.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f95fc72-f0bf-4b0a-bc4b-a5911291159e")
+	)
+	(fp_arc
+		(start -0.65 1.7)
+		(mid 1.283448 -2.579449)
+		(end 3.238611 1.690122)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d59f6bf4-9cd8-4b39-ab62-ed52671d1a48")
+	)
+	(fp_line
+		(start -1.45 -2.75)
+		(end -1.45 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56356dc9-c469-4322-9e92-8389cac722e4")
+	)
+	(fp_line
+		(start -1.45 -2.75)
+		(end 4.05 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "874d17d8-5e62-4f05-b4f6-0fe57c7859f2")
+	)
+	(fp_line
+		(start 4.05 1.85)
+		(end -1.45 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2dce18d-7954-46bd-9478-5b76ebd02fd5")
+	)
+	(fp_line
+		(start 4.05 1.85)
+		(end 4.05 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6d4cddf-f9ca-487f-bc57-3869dcdf4d21")
+	)
+	(fp_line
+		(start -0.6 1.6)
+		(end 3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d699795-a93b-4d66-83b3-546fc04eefb9")
+	)
+	(fp_arc
+		(start -0.602818 1.602385)
+		(mid -0.959924 -1.043188)
+		(end 1.29 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6054268-d990-4d52-959a-e6c370ade08f")
+	)
+	(fp_arc
+		(start 1.29 -2.48)
+		(mid 3.537211 -1.049019)
+		(end 3.191103 1.592547)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1468b45b-f19b-4f86-8d60-3feab0b8d35f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "cbef99e1-cec3-4347-bf1a-086eb11559d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.22 0.22)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79528231-07df-45f6-a301-5260fe00a5a5")
+	)
+	(pad "2" thru_hole circle
+		(at 1.28 -1.27)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b99046b5-b2bc-4f9c-bd55-2934ca1b2783")
+	)
+	(pad "3" thru_hole circle
+		(at 2.78 0.2)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "572adc6d-be05-4c28-b360-b35265f3f7f2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,788 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "27105b48-977f-4c63-94dd-a27bbcf29c5a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 99.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e00f426-154b-420c-b22f-80a0c021079e")
+	)
+	(junction
+		(at 91.44 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e1ba2ff-9314-47e2-b3be-cd39964af6f0")
+	)
+	(junction
+		(at 91.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a607f30-5208-4598-9973-ec4fc6457388")
+	)
+	(junction
+		(at 99.06 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ce8062-f589-48d2-8507-2957425bdac3")
+	)
+	(no_connect
+		(at 50.8 115.57)
+		(uuid "799b15eb-687e-4414-97b7-784eb4094f68")
+	)
+	(no_connect
+		(at 50.8 121.92)
+		(uuid "83a56da4-523a-4c2f-bf69-8f3dc8c275cd")
+	)
+	(no_connect
+		(at 190.5 77.47)
+		(uuid "c9449a03-ecf5-44bb-89fc-43673089791c")
+	)
+	(bus
+		(pts
+			(xy 88.9 123.19) (xy 99.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0276a78c-9766-4925-88a5-a48a2bc2fda9")
+	)
+	(bus
+		(pts
+			(xy 91.44 97.79) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1483f893-3168-43e8-83cb-528279b191e7")
+	)
+	(bus
+		(pts
+			(xy 88.9 77.47) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bf4d22-e605-462e-91db-eaef9f4b35d5")
+	)
+	(bus
+		(pts
+			(xy 148.59 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2735caac-1b9f-44e6-bc7c-5bffc11fc1ca")
+	)
+	(bus
+		(pts
+			(xy 142.24 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc75f15-3658-495d-a0d8-b20cd6b2c67a")
+	)
+	(bus
+		(pts
+			(xy 91.44 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4074c6fe-64de-4bb6-99d8-299f7554f862")
+	)
+	(bus
+		(pts
+			(xy 91.44 77.47) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d7e844-2707-44cd-8b67-db2e1a06bd46")
+	)
+	(bus
+		(pts
+			(xy 88.9 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57653c8a-5d51-425a-9b23-9f69adfc14d7")
+	)
+	(bus
+		(pts
+			(xy 99.06 123.19) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e87a138-5ff5-4bd1-a029-abebca4572d2")
+	)
+	(bus
+		(pts
+			(xy 88.9 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad1ecc3-7c09-42ed-96e3-1e669d3028b7")
+	)
+	(bus
+		(pts
+			(xy 91.44 115.57) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0fb626-22ce-4d06-9c0a-f84618843388")
+	)
+	(bus
+		(pts
+			(xy 99.06 85.09) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8869306a-e928-4875-bec3-10d3fe82200d")
+	)
+	(bus
+		(pts
+			(xy 142.24 97.79) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b32310-b088-4357-8542-da2599dbfb72")
+	)
+	(bus
+		(pts
+			(xy 99.06 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62b90cd-6cdb-484d-8411-aa544b159625")
+	)
+	(bus
+		(pts
+			(xy 99.06 85.09) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce88bc5-8b74-4651-9287-74a4924a6559")
+	)
+	(bus
+		(pts
+			(xy 148.59 93.98) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6400365-2417-43ff-951c-e1e10a986f6a")
+	)
+	(bus
+		(pts
+			(xy 88.9 115.57) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31c34dc-4f48-4d55-bce5-f967f00a5d87")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d6210d-d8a4-4e44-909a-0a85f71997f9")
+		(property "Reference" "G2"
+			(at 55.88 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tangerine Leaf Pot"
+			(at 55.88 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Oric:tangerineleafpot"
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(reference "G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd76ba1-f56d-40e7-b66d-24721502c80e")
+		(property "Reference" "G3"
+			(at 55.88 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Board Folk QR"
+			(at 55.88 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Oric:bf_qr14"
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(reference "G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 63.5)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3070d964-8c69-4292-9944-2578e97eebcf")
+		(property "Sheetname" "ROM"
+			(at 152.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_rom.kicad_sch"
+			(at 152.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" input
+			(at 152.4 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27ea0ea6-6503-4801-ae23-fcdae8b9a7b4")
+		)
+		(pin "D[0..7]" input
+			(at 152.4 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d21aa2c7-d3ad-4990-ad47-3d0f2a077516")
+		)
+		(pin "R[14..15]" bidirectional
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8eff2ad-9286-4830-a1f5-22e2ac0cb06e")
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 25.4)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54c7a1fa-ea3a-4d86-9d7f-dd82cc533b34")
+		(property "Sheetname" "Video"
+			(at 50.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_video.kicad_sch"
+			(at 50.8 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 101.6)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ce3ed84-23ef-45c0-8140-c37135418e85")
+		(property "Sheetname" "IO"
+			(at 50.8 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_io.kicad_sch"
+			(at 50.8 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" input
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4428b9a7-c4a7-47aa-ad0f-6c1776c6c100")
+		)
+		(pin "A[0..15]" input
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe97428f-fe9e-4ffa-b944-4401d84b19e8")
+		)
+		(pin "IOA[0..7]" input
+			(at 50.8 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d56baa20-eb30-4404-b9f3-cccb1afee9ad")
+		)
+		(pin "DA[0..7]" input
+			(at 50.8 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea50525f-5e1a-4cb7-8e5f-c4b37c39b5f3")
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 63.5)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dfa6b8a-32ac-4e53-bc10-eb2bce2924d5")
+		(property "Sheetname" "CPU and ULA"
+			(at 50.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_cpuula.kicad_sch"
+			(at 50.8 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" input
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6af3972-908a-42ff-8e03-138b1768aeb2")
+		)
+		(pin "D[0..7]" input
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6ff89c5-b7f0-40ef-9500-e2a244485bfd")
+		)
+		(pin "MA[0..7]" input
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "476fad52-4ca9-4f1d-89b6-89329c9081be")
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 139.7)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8518c495-769c-42ab-95b2-875346142e11")
+		(property "Sheetname" "Power"
+			(at 50.8 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_power.kicad_sch"
+			(at 50.8 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 63.5)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c8c9826-ba13-4c6a-92d6-aeac4b1032aa")
+		(property "Sheetname" "RAM"
+			(at 101.6 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oric_ram.kicad_sch"
+			(at 101.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" input
+			(at 101.6 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91f7bc73-3ab1-4c65-877d-bcd62078bf8a")
+		)
+		(pin "A[0..15]" input
+			(at 101.6 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da7f96f0-0362-4170-96b6-1544c554ef9d")
+		)
+		(pin "MA[0..7]" input
+			(at 101.6 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2effba50-f646-4492-8579-87f122e2f51c")
+		)
+		(instances
+			(project "Oric"
+				(path "/27105b48-977f-4c63-94dd-a27bbcf29c5a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
